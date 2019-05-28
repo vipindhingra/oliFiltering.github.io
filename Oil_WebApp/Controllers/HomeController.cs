@@ -26,5 +26,17 @@ namespace Oil_WebApp.Controllers
 
             return View();
         }
+        public ActionResult gallery()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
+        public ActionResult services()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
     }
 }
